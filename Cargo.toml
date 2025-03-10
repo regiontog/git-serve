@@ -2,6 +2,10 @@
 name = "git-serve"
 version = "0.1.0"
 edition = "2024"
+authors = ["Erlend Tobiassen <erlend.tobiassen@gmail.com>"]
+description = "Servers up a git directory over http using git-http-backend"
+repository = "https://github.com/regiontog/git-serve"
+license = "MIT OR Apache-2.0"
 
 [dependencies]
 rouille = "3.6.2"
